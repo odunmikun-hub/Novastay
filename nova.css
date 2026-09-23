@@ -1,0 +1,217 @@
+* {
+    padding: 40px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(33, 30, 30, 0.854);
+    padding: 5px;
+}
+
+header nav div {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+span {
+    color: blueviolet;
+}
+ul a .class{
+    color: blueviolet;
+}
+
+.home {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.home li a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    padding: 70px;
+    background-image: url(./image/picture.jpeg);
+    background-position: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.about h3 {
+    color: blueviolet;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.about h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.about p {
+    margin-top: 15px;
+    width: 410px;
+    line-height: 20px;
+}
+
+.about button {
+    width: 150px;
+    height: 40px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+section {
+    background-color: aliceblue;
+    /* height: 80vh; */
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+
+}
+
+.contact {
+    color: blueviolet;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* padding-top: none; */
+    font-weight: bold;
+}
+
+.get {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.Have {
+    width: 350px;
+    margin-left: 450px;
+    padding-top: 20px;
+}
+
+section form {
+    margin-left: 400px;
+    width: 500px;
+}
+
+section form div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+section form .contact-row input {
+    padding: 10px;
+    width: 200px;
+}
+
+section form .form-control {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    /* padding-left: 10px; */
+    margin-top: 10px;
+}
+
+
+section form textarea {
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+section form .btn {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: indigo;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.877);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: cornsilk;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* font-size: 20px; */
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second {
+    margin-left: 80px;
+    line-height: 20px;
+    padding-right: 70px;
+}
+
+.second p {
+    font-size: 20px;
+}
+
+.second a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.619);
+}
+
+.second ul {
+    list-style: none;
+    padding: 10px;
+
+}
+
+
+.novas span {
+    color: blueviolet;
+}
+
+.third {
+    margin-right: 200px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.728);
+}
+
+.third p {
+    font-size: 20px;
+}
+
+.third ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.All {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px;
+    padding-top: 20px;
+    font-size: 15px;
+}
